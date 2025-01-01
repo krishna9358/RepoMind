@@ -1,9 +1,9 @@
-import { SignUpButton } from "@clerk/nextjs";
+import { SignUp } from "@clerk/nextjs";
 
-export default function SignUp() {
+export default function SignUpPage() {
   return (
-    <main>
-        <SignUpButton />
+    <main className="flex justify-center h-screen items-center">
+        <SignUp />
     </main>
   );
 }
